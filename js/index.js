@@ -2,7 +2,8 @@ import * as THREE from 'three';
 
 import Stats from './modules/stats.module.js';
 
-import { GUI } from './modules/dat.gui.module.js';
+// removed for now, but might want to add back at a future date
+// import { GUI } from './modules/dat.gui.module.js';
 import { OrbitControls } from './modules/OrbitControls.js';
 
 import gridFragmentShader from './shaders/GridShader.frag';
@@ -13,7 +14,6 @@ import starVertexShader from './shaders/StarShader.vert';
 var canvas, context;
 var renderer, scene, camera, camera2, controls;
 var stats;
-var gui;
 
 // added
 var material;
