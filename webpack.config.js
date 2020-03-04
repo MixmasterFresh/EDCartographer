@@ -20,5 +20,11 @@ module.exports = {
     },
     externals: {
         three: 'THREE'
+    },
+    devServer: {
+        contentBase: __dirname,
+        compress: true,
+        port: 8000,
+        writeToDisk: true
     }
 };
